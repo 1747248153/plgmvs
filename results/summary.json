@@ -1,0 +1,14 @@
+{
+  "method": "PLG-MVS",
+  "dtu": {
+    "source": "results/dtu/TotalStat_mvsnet_Eval_.txt",
+    "accuracy": 0.305817,
+    "completeness": 0.25281,
+    "overall": 0.2793135,
+    "overall_definition": "(accuracy + completeness) / 2"
+  },
+  "tnt_intermediate": {
+    "f_score_percent": 66.4,
+    "source": "results/tnt_intermediate.json"
+  }
+}

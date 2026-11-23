@@ -1,0 +1,31 @@
+{
+  "record_type": "historical_command_from_local_log",
+  "source_log": "log.txt",
+  "argv": [
+    "--local-rank=0",
+    "--logdir",
+    "./checkpoints/dtu/train_dtu_sgformer_refine_all",
+    "--dataset=dtu_yao_vit",
+    "--batch_size=4",
+    "--trainpath=${DTU_ROOT}/",
+    "--summary_freq",
+    "1",
+    "--ndepths",
+    "8,8,4,4",
+    "--attn_temp",
+    "2",
+    "--wd",
+    "0.0001",
+    "--lr",
+    "0.001",
+    "--epochs",
+    "15",
+    "--lrepochs",
+    "10,12,14:2",
+    "--trainlist",
+    "lists/dtu/train.txt",
+    "--testlist",
+    "lists/dtu/test.txt"
+  ],
+  "note": "路径占位符需替换；保留历史命令，不将当前快照等同于所有历史实验。"
+}

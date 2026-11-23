@@ -1,0 +1,486 @@
+{
+  "export_date": "2026-11-24",
+  "scope": "PLG method only; required backbone dependencies retain upstream attribution",
+  "files": [
+    {
+      "path": "models/AF/Fmish.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/AF/Fmish.py",
+      "sha256": "4c9cb03c93ebbc82d4391754c5b32cd869313fb80b9613d75e5419dcd2fd106a"
+    },
+    {
+      "path": "models/AF/Fsmish.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/AF/Fsmish.py",
+      "sha256": "e100aa88b3f84b036340c7f1b09e3a805712c6ac2688728758781e0c9acddc2d"
+    },
+    {
+      "path": "models/AF/Xmish.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/AF/Xmish.py",
+      "sha256": "fe90d8406184c550e8687bd809341fa259fed412cd9caea36e4745c78357d087"
+    },
+    {
+      "path": "models/AF/Xsmish.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/AF/Xsmish.py",
+      "sha256": "9ef84478b23873e54d58c75c7fb4b03ad9f401630a0b1912d3a736968dfd9bf9"
+    },
+    {
+      "path": "models/FMT_with_CVPE.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/FMT_with_CVPE.py",
+      "sha256": "f7b7078160f32f377fceeba342b4b481fe8b98f94a01db7de1ee0e7d5914261e"
+    },
+    {
+      "path": "models/__init__.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/__init__.py",
+      "sha256": "2983bad8c2c868cfa5c744fbe92631da3c93e31f4355ba6ce15e1aa6bab834d0"
+    },
+    {
+      "path": "models/depth_anything_v2/__init__.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/depth_anything_v2/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "models/depth_anything_v2/dinov2.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/depth_anything_v2/dinov2.py",
+      "sha256": "1099263573372d1c1321a5200d7dd71862bb5865f7cd3b965f8cfe3d2031144b"
+    },
+    {
+      "path": "models/depth_anything_v2/dinov2_layers/__init__.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/depth_anything_v2/dinov2_layers/__init__.py",
+      "sha256": "e3c28c7b775165b6844000eb69f44d104d6c3803ac7da5d59f6ac3ecfb46d9d8"
+    },
+    {
+      "path": "models/depth_anything_v2/dinov2_layers/attention.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/depth_anything_v2/dinov2_layers/attention.py",
+      "sha256": "0d2410ce8b8b4499a6b0cdab939ae2bceab8971efd8660d999b0f3088f28cbf7"
+    },
+    {
+      "path": "models/depth_anything_v2/dinov2_layers/block.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/depth_anything_v2/dinov2_layers/block.py",
+      "sha256": "093266ea08084c7cce7b8ddd779ecfaaa13055735faa8a7d68b5924f385b395b"
+    },
+    {
+      "path": "models/depth_anything_v2/dinov2_layers/drop_path.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/depth_anything_v2/dinov2_layers/drop_path.py",
+      "sha256": "949100aac4d9c19c9d65319dbd362886c5d46a72d7586ba4fd500e9f1d51570c"
+    },
+    {
+      "path": "models/depth_anything_v2/dinov2_layers/layer_scale.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/depth_anything_v2/dinov2_layers/layer_scale.py",
+      "sha256": "356817b5d1390737128cbcc03a5333fd3060b73beae478772282ccb851d0ef85"
+    },
+    {
+      "path": "models/depth_anything_v2/dinov2_layers/mlp.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/depth_anything_v2/dinov2_layers/mlp.py",
+      "sha256": "c18c5b3f021408597a473bb710070ec3fb3b39f5a2e42e88ae83ced425a608b5"
+    },
+    {
+      "path": "models/depth_anything_v2/dinov2_layers/patch_embed.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/depth_anything_v2/dinov2_layers/patch_embed.py",
+      "sha256": "b3f82e19926c9cfb63f10136aca5e8a723bde1ad62dae1d04f90d405f9439baf"
+    },
+    {
+      "path": "models/depth_anything_v2/dinov2_layers/swiglu_ffn.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/depth_anything_v2/dinov2_layers/swiglu_ffn.py",
+      "sha256": "df81d9901240214edc1831ce1b77558dcd6227b29a2f000fc5f546df55d2d09a"
+    },
+    {
+      "path": "models/depth_anything_v2/dpt.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/depth_anything_v2/dpt.py",
+      "sha256": "49678163c8277fe453e2b64c59dbc9151ca586f767d35dbeea9f4909b044f940"
+    },
+    {
+      "path": "models/depth_anything_v2/util/__init__.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/depth_anything_v2/util/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "models/depth_anything_v2/util/blocks.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/depth_anything_v2/util/blocks.py",
+      "sha256": "351aa24b8af4bef923ebe3bed5e5e8503b08e39bf06ee045d6444a485a2036a8"
+    },
+    {
+      "path": "models/depth_anything_v2/util/transform.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/depth_anything_v2/util/transform.py",
+      "sha256": "a97df1dbb687457a40c387fdc3482edee7ddc5c142c7d2735ca6235a8ae2885f"
+    },
+    {
+      "path": "models/module.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/module.py",
+      "sha256": "a9f1875323446e4b57e4a851ed3e2d98ccd6a02ed37db24bb069d0bcc508b57c"
+    },
+    {
+      "path": "models/ted.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/ted.py",
+      "sha256": "0074ac5e9b6555e30200eedc706806d5ddf2a3d8a1596cbc76f48bd5a7ac3a0c"
+    },
+    {
+      "path": "datasets/__init__.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "datasets/__init__.py",
+      "sha256": "3c6ca08e6378e698e939f690c6674e0770c600a91d5c3974186a6d79a89297b5"
+    },
+    {
+      "path": "datasets/blendedmvs.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "datasets/blendedmvs.py",
+      "sha256": "37bdac6b67de7a112717eafaf0c1b804bf0a7bed8d98dc71381c53eab8f52556"
+    },
+    {
+      "path": "datasets/color_jittor.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "datasets/color_jittor.py",
+      "sha256": "a28f936c2193c416d2c58b42805348e9344910eea02c6baa3e2cbfb44ee5670c"
+    },
+    {
+      "path": "datasets/data_io.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "datasets/data_io.py",
+      "sha256": "8392d5cafd481cb974d0e335c762cda8a96324fcd4b0a15a1280c00f14e7ba5e"
+    },
+    {
+      "path": "datasets/dtu_yao_vit.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "datasets/dtu_yao_vit.py",
+      "sha256": "ce9302cb4cc5a83c56862900dce8f6a9a3a2eda37131e1c631ef3c3eab0075c2"
+    },
+    {
+      "path": "datasets/general_eval_vit.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "datasets/general_eval_vit.py",
+      "sha256": "c9d16dcacbbfbdf81ca6f93fab96b9d14f74b7a3aeed38ce7cefbfb7c2a0f1d4"
+    },
+    {
+      "path": "datasets/tanks.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "datasets/tanks.py",
+      "sha256": "a3bc5243562c48cc5949e87d55ac88c4a7e44970d558458046b3101818260b08"
+    },
+    {
+      "path": "models/monomvsnet.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "models/monomvsnet_backup_before_refiner_switch.py",
+      "sha256": "d39d8a89cf2458f3eb9fc81859b55eb2ac260cbdcaac211a3e870b7da2e3fe84"
+    },
+    {
+      "path": "models/depth_refine_sgformer.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "backups_eval_wo_pge_mae/depth_refine_sgformer.py.bak_20260630_163522",
+      "sha256": "b2f86086d045a2b59c340055aa0eaed2022de5ba4024a441ec9df7497f0f397f"
+    },
+    {
+      "path": "train_dtu.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "train_dtu.py",
+      "sha256": "e8af2766a90a3c40fd9b5c82db7cb4e8afbc7512223810f07fafe56edd0c5d9e"
+    },
+    {
+      "path": "test_dtu_pcd.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "test_dtu_pcd.py",
+      "sha256": "d41bf1e00e04c53b7bebdd73597346ee8a8cc5dc497636a213ed85551abf42ed"
+    },
+    {
+      "path": "test_dtu_dypcd.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "test_dtu_dypcd.py",
+      "sha256": "dae98f47b2d025dc0ec3174d02111d6016d21aefc1483f8ba3266aaac0bced7e"
+    },
+    {
+      "path": "utils.py",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "utils.py",
+      "sha256": "33f4cc7ee77acd33491a8107b8027605a2fe71d4f41156f6bd6b61397e48fe2b"
+    },
+    {
+      "path": "LICENSE",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "LICENSE",
+      "sha256": "08724b7c7afd796b320dc50d10fe938f2608c6f994f994345d03333265a635b8"
+    },
+    {
+      "path": "lists/dtu/train.txt",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "lists/dtu/train.txt",
+      "sha256": "bc811e4a9b058cbe17590dc52b74fe782b7c21054c03cbfc65b36fe219828616"
+    },
+    {
+      "path": "lists/dtu/val.txt",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "lists/dtu/val.txt",
+      "sha256": "23ea4f65ade1a9ee85566c69729300c1ec548aece79beafd5efee7124463bdc1"
+    },
+    {
+      "path": "lists/dtu/test.txt",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "lists/dtu/test.txt",
+      "sha256": "ae1050f2d83040caefd3a701c5d19874405abccc4eccb56c66cad01903a9b750"
+    },
+    {
+      "path": "experiments/blended_tnt/models/AF/Fmish.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/AF/Fmish.py",
+      "sha256": "4c9cb03c93ebbc82d4391754c5b32cd869313fb80b9613d75e5419dcd2fd106a"
+    },
+    {
+      "path": "experiments/blended_tnt/models/AF/Fsmish.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/AF/Fsmish.py",
+      "sha256": "e100aa88b3f84b036340c7f1b09e3a805712c6ac2688728758781e0c9acddc2d"
+    },
+    {
+      "path": "experiments/blended_tnt/models/AF/Xmish.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/AF/Xmish.py",
+      "sha256": "fe90d8406184c550e8687bd809341fa259fed412cd9caea36e4745c78357d087"
+    },
+    {
+      "path": "experiments/blended_tnt/models/AF/Xsmish.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/AF/Xsmish.py",
+      "sha256": "9ef84478b23873e54d58c75c7fb4b03ad9f401630a0b1912d3a736968dfd9bf9"
+    },
+    {
+      "path": "experiments/blended_tnt/models/FMT_with_CVPE.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/FMT_with_CVPE.py",
+      "sha256": "b2be599151480f441671fde7126960db9245d311a6b8703106022808e6cad896"
+    },
+    {
+      "path": "experiments/blended_tnt/models/__init__.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/__init__.py",
+      "sha256": "2983bad8c2c868cfa5c744fbe92631da3c93e31f4355ba6ce15e1aa6bab834d0"
+    },
+    {
+      "path": "experiments/blended_tnt/models/depth_anything_v2/__init__.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/depth_anything_v2/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/blended_tnt/models/depth_anything_v2/dinov2.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/depth_anything_v2/dinov2.py",
+      "sha256": "1099263573372d1c1321a5200d7dd71862bb5865f7cd3b965f8cfe3d2031144b"
+    },
+    {
+      "path": "experiments/blended_tnt/models/depth_anything_v2/dinov2_layers/__init__.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/depth_anything_v2/dinov2_layers/__init__.py",
+      "sha256": "e3c28c7b775165b6844000eb69f44d104d6c3803ac7da5d59f6ac3ecfb46d9d8"
+    },
+    {
+      "path": "experiments/blended_tnt/models/depth_anything_v2/dinov2_layers/attention.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/depth_anything_v2/dinov2_layers/attention.py",
+      "sha256": "0d2410ce8b8b4499a6b0cdab939ae2bceab8971efd8660d999b0f3088f28cbf7"
+    },
+    {
+      "path": "experiments/blended_tnt/models/depth_anything_v2/dinov2_layers/block.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/depth_anything_v2/dinov2_layers/block.py",
+      "sha256": "093266ea08084c7cce7b8ddd779ecfaaa13055735faa8a7d68b5924f385b395b"
+    },
+    {
+      "path": "experiments/blended_tnt/models/depth_anything_v2/dinov2_layers/drop_path.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/depth_anything_v2/dinov2_layers/drop_path.py",
+      "sha256": "949100aac4d9c19c9d65319dbd362886c5d46a72d7586ba4fd500e9f1d51570c"
+    },
+    {
+      "path": "experiments/blended_tnt/models/depth_anything_v2/dinov2_layers/layer_scale.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/depth_anything_v2/dinov2_layers/layer_scale.py",
+      "sha256": "356817b5d1390737128cbcc03a5333fd3060b73beae478772282ccb851d0ef85"
+    },
+    {
+      "path": "experiments/blended_tnt/models/depth_anything_v2/dinov2_layers/mlp.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/depth_anything_v2/dinov2_layers/mlp.py",
+      "sha256": "c18c5b3f021408597a473bb710070ec3fb3b39f5a2e42e88ae83ced425a608b5"
+    },
+    {
+      "path": "experiments/blended_tnt/models/depth_anything_v2/dinov2_layers/patch_embed.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/depth_anything_v2/dinov2_layers/patch_embed.py",
+      "sha256": "b3f82e19926c9cfb63f10136aca5e8a723bde1ad62dae1d04f90d405f9439baf"
+    },
+    {
+      "path": "experiments/blended_tnt/models/depth_anything_v2/dinov2_layers/swiglu_ffn.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/depth_anything_v2/dinov2_layers/swiglu_ffn.py",
+      "sha256": "df81d9901240214edc1831ce1b77558dcd6227b29a2f000fc5f546df55d2d09a"
+    },
+    {
+      "path": "experiments/blended_tnt/models/depth_anything_v2/dpt.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/depth_anything_v2/dpt.py",
+      "sha256": "49678163c8277fe453e2b64c59dbc9151ca586f767d35dbeea9f4909b044f940"
+    },
+    {
+      "path": "experiments/blended_tnt/models/depth_anything_v2/util/__init__.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/depth_anything_v2/util/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/blended_tnt/models/depth_anything_v2/util/blocks.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/depth_anything_v2/util/blocks.py",
+      "sha256": "351aa24b8af4bef923ebe3bed5e5e8503b08e39bf06ee045d6444a485a2036a8"
+    },
+    {
+      "path": "experiments/blended_tnt/models/depth_anything_v2/util/transform.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/depth_anything_v2/util/transform.py",
+      "sha256": "a97df1dbb687457a40c387fdc3482edee7ddc5c142c7d2735ca6235a8ae2885f"
+    },
+    {
+      "path": "experiments/blended_tnt/models/depth_refine_sgformer.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/depth_refine_sgformer.py",
+      "sha256": "96be6bb989099fe52028f7b35041f4d525f5491a4d4d0061fb06f62f5d74821b"
+    },
+    {
+      "path": "experiments/blended_tnt/models/module.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/module.py",
+      "sha256": "a9f1875323446e4b57e4a851ed3e2d98ccd6a02ed37db24bb069d0bcc508b57c"
+    },
+    {
+      "path": "experiments/blended_tnt/models/monomvsnet.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/monomvsnet.py",
+      "sha256": "b7ac22bd30188b9f6bdfc5179318c516421cd541ccae97ec114a2b8eec09a3f1"
+    },
+    {
+      "path": "experiments/blended_tnt/models/ted.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "models/ted.py",
+      "sha256": "0074ac5e9b6555e30200eedc706806d5ddf2a3d8a1596cbc76f48bd5a7ac3a0c"
+    },
+    {
+      "path": "experiments/blended_tnt/datasets/__init__.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "datasets/__init__.py",
+      "sha256": "3c6ca08e6378e698e939f690c6674e0770c600a91d5c3974186a6d79a89297b5"
+    },
+    {
+      "path": "experiments/blended_tnt/datasets/blendedmvs.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "datasets/blendedmvs.py",
+      "sha256": "37bdac6b67de7a112717eafaf0c1b804bf0a7bed8d98dc71381c53eab8f52556"
+    },
+    {
+      "path": "experiments/blended_tnt/datasets/color_jittor.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "datasets/color_jittor.py",
+      "sha256": "a28f936c2193c416d2c58b42805348e9344910eea02c6baa3e2cbfb44ee5670c"
+    },
+    {
+      "path": "experiments/blended_tnt/datasets/data_io.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "datasets/data_io.py",
+      "sha256": "8392d5cafd481cb974d0e335c762cda8a96324fcd4b0a15a1280c00f14e7ba5e"
+    },
+    {
+      "path": "experiments/blended_tnt/datasets/dtu_yao_vit.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "datasets/dtu_yao_vit.py",
+      "sha256": "ce9302cb4cc5a83c56862900dce8f6a9a3a2eda37131e1c631ef3c3eab0075c2"
+    },
+    {
+      "path": "experiments/blended_tnt/datasets/general_eval_vit.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "datasets/general_eval_vit.py",
+      "sha256": "c9d16dcacbbfbdf81ca6f93fab96b9d14f74b7a3aeed38ce7cefbfb7c2a0f1d4"
+    },
+    {
+      "path": "experiments/blended_tnt/datasets/tanks.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "datasets/tanks.py",
+      "sha256": "e43a984d51a70dc81b2196388da7ffb4c4eecbffe8cd1ef25e988873c735c56e"
+    },
+    {
+      "path": "experiments/blended_tnt/train_bld.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "train_bld.py",
+      "sha256": "4105374571194e5ebe374b4fb4cb13f3591642f6fd4822b9d4e3f3f37bb4cce8"
+    },
+    {
+      "path": "experiments/blended_tnt/test_dypcd_tnt_inter.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "test_dypcd_tnt_inter.py",
+      "sha256": "eca9f082b4d75e42272b255336cf217991264920e2ca1af4b32dade650046ac1"
+    },
+    {
+      "path": "experiments/blended_tnt/utils.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "utils.py",
+      "sha256": "33f4cc7ee77acd33491a8107b8027605a2fe71d4f41156f6bd6b61397e48fe2b"
+    },
+    {
+      "path": "experiments/blended_tnt/make_author_v4_refiner_hybrid.py",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "make_author_v4_refiner_hybrid.py",
+      "sha256": "bdf8c224bf7aebc13f25c20053dd363c36b46ab99433ae9d9fe56b7221e25845"
+    },
+    {
+      "path": "experiments/blended_tnt/lists/blendedmvs/train.txt",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "lists/blendedmvs/train.txt",
+      "sha256": "f3c912d94768f3bb5b9f835257de74c14d802a6016ef32009c139b9df8e3981b"
+    },
+    {
+      "path": "experiments/blended_tnt/lists/blendedmvs/val.txt",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "lists/blendedmvs/val.txt",
+      "sha256": "5929346805386034bf9e6ab8ac87166f64241ce8ceeaa26be91125ea03912a96"
+    },
+    {
+      "path": "experiments/blended_tnt/lists/tnt/inter_all.txt",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "lists/tnt/inter_all.txt",
+      "sha256": "3e715df9a841926a1471025bb42a46b41d3a742c90223c740d0b1b8f960e99dd"
+    },
+    {
+      "path": "experiments/blended_tnt/lists/tnt/family_only.txt",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "lists/tnt/family_only.txt",
+      "sha256": "d9b4f64817819c7e35420bda3699b6b1b9f0d72b44b9cccd79280dbe56250e18"
+    },
+    {
+      "path": "experiments/blended_tnt/lists/tnt/inter_remaining_without_family.txt",
+      "source_project": "MonoMVSNet_official",
+      "source_path": "lists/tnt/inter_remaining_without_family.txt",
+      "sha256": "b794dc4ae89a36e620c4f4a62930fa808612b164fbae2a079ad3c525ec629c08"
+    },
+    {
+      "path": "results/dtu/TotalStat_mvsnet_Eval_.txt",
+      "source_project": "MonoMVSNet-main",
+      "source_path": "eval/dtu_dypcd_sgformer_refine_all/TotalStat_mvsnet_Eval_.txt",
+      "sha256": "31615208fe9a2ecc514cdecb7ceef6c9ad962dc44ac9285d56e98274cb07f469"
+    }
+  ]
+}

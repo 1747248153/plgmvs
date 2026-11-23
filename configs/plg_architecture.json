@@ -1,0 +1,26 @@
+{
+  "method": "PLG-MVS / PLG-SGRefiner",
+  "guidance": [
+    "initial_depth",
+    "photometric_confidence",
+    "monocular_depth",
+    "edge"
+  ],
+  "embed_dim": 8,
+  "refine_downsample": 16,
+  "residual_scale": 0.05,
+  "refinement_stages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "dtu_refine_loss_stage_weights": [
+    0.01,
+    0.01,
+    0.02,
+    0.05
+  ],
+  "dtu_monocular_consistency_weight": 0.01,
+  "tnt_variant": "interval-normalized, confidence-gated residual; see experiments/blended_tnt"
+}

@@ -1,0 +1,12 @@
+# Install a CUDA-compatible PyTorch and torchvision separately.
+numpy
+opencv-python
+matplotlib
+einops
+timm
+plyfile
+tensorboardX
+scipy
+scikit-learn
+Pillow
+tqdm

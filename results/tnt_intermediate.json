@@ -1,0 +1,19 @@
+{
+  "method": "PLG-MVS / RefineAll v4",
+  "submission_title": "MonoMVSNet RefineAll v4",
+  "source": "用户在对话中提供的 Tanks and Temples 官方评估邮件；本次上传未重新提交评估",
+  "metric": "F-score (%)",
+  "scenes": {
+    "Family": 81.29,
+    "Francis": 69.92,
+    "Horse": 59.82,
+    "Lighthouse": 67.13,
+    "M60": 65.33,
+    "Panther": 65.51,
+    "Playground": 63.35,
+    "Train": 58.87
+  },
+  "reported_mean": 66.4,
+  "mean_of_displayed_scene_scores": 66.40249999999999,
+  "checkpoint_recipe": "author backbone + v4 trained PLG refiner (42 depth_refiner state entries)"
+}
